@@ -2,7 +2,7 @@ package poo_atividades;
 
 import java.util.Scanner;
 
-public class atividade_1_2 {
+public class atividade_slide {
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);

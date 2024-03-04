@@ -3,12 +3,24 @@ import java.util.Scanner;
 
 public class lista_5_questoes {
 	public static void main(String[] args) {
-		imprimirMaior();
+		imprimirClasses();
 	}
 	
 	// Questão 1: usando o teclado imprimir o numero do tipo int, long e float.
 	public static void imprimirClasses() {
-		
+		Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Digite um número inteiro:");
+        int numeroInteiro = scanner.nextInt();
+
+        System.out.println("Digite um número longo:");
+        long numeroLongo = scanner.nextLong();
+
+        System.out.println("Digite um número de ponto flutuante:");
+        float numeroFloat = scanner.nextFloat();
+
+        System.out.printf("O número inteiro digitado foi %d, o número long digitado foi %d e o número float foi %.2f.%n",
+                numeroInteiro, numeroLongo, numeroFloat);
 	}
 	
 	// Questão 2: calcular imc e exibir na tela de acordo com a fórmula.
